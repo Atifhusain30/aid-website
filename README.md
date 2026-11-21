@@ -24,6 +24,7 @@ Open http://localhost:4173. No dependencies or build step. To publish on a stati
 
 - `index.html` — accessible semantic sections, SEO metadata and content
 - `styles.css` — visual design, mobile layouts, reduced-motion support
-- `script.js` — service tabs, mobile menu and footer date
+- `script.js` — service tabs, mobile menu, genuine app-capture gallery, restrained scroll reveals and footer date
 - `tests/site.test.mjs` — structural smoke tests
+- `assets/screens/` — compressed JPEGs of actual AID app development captures: `sim-05-home.png`, `design-a-request-confirm-after.png`, and `design-b-tracking-after.png` from the AID project screenshot archive. The address, vehicle, driver, rating, price and ETA in these captures are test data; they are identified as such on the website. Do not replace them with stock phone mockups or pass them off as completed customer jobs.
 - `assets/` — local AID mark (copied from app), hero photograph and social preview

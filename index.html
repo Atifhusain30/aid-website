@@ -6,9 +6,11 @@
   <meta name="theme-color" content="#08080b">
   <meta name="description" content="AID is a new way to get roadside help. Request a tow, jump start, tire change, lockout help and more—all from one app. Coming soon.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://atifhusain30.github.io/aid-website/">
   <meta property="og:title" content="AID — Roadside help, without the runaround">
   <meta property="og:description" content="One place for roadside help. Know the price, follow the job, and get moving again. Coming soon.">
-  <meta property="og:image" content="assets/og-cover.svg">
+  <meta property="og:image" content="https://atifhusain30.github.io/aid-website/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/aid-icon.svg" type="image/svg+xml">
   <link rel="preload" as="image" href="assets/night-drive.jpg">
   <link rel="stylesheet" href="styles.css">
@@ -22,7 +24,7 @@
       <a class="brand" href="#top" aria-label="AID home"><img src="assets/aid-icon.svg" width="39" height="39" alt=""><span>AID<span class="brand-dot">.</span></span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
       <div class="nav-links" id="nav-links">
-        <a href="#services">Services</a><a href="#how-it-works">How it works</a><a href="#drivers">For drivers</a><a href="#questions">FAQ</a>
+        <a href="#services">Services</a><a href="#app-preview">The app</a><a href="#how-it-works">How it works</a><a href="#drivers">For drivers</a><a href="#questions">FAQ</a>
         <a class="nav-cta" href="#launch">Explore AID <span aria-hidden="true">↗</span></a>
       </div>
     </nav>
@@ -39,22 +41,11 @@
           <div class="hero-actions"><a class="button button-primary" href="#services">Explore roadside help <span aria-hidden="true">↗</span></a><a class="text-link" href="#how-it-works">See how AID works <span aria-hidden="true">↓</span></a></div>
           <p class="launch-note"><span class="pulse-dot" aria-hidden="true"></span> The AID app is preparing to launch. Service is not available yet.</p>
         </div>
-        <div class="hero-art" aria-label="Preview of the AID roadside help app">
-          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-          <div class="phone" role="img" aria-label="Illustrative preview: AID app showing roadside service choices. Not a live booking screen.">
-            <div class="phone-notch"></div>
-            <div class="phone-inner">
-              <div class="phone-top"><div class="phone-logo"><img src="assets/aid-icon.svg" alt="" width="24" height="24"> AID</div><span class="phone-menu">◦◦◦</span></div>
-              <div class="phone-greeting">GOOD EVENING</div>
-              <div class="phone-heading">Let's get you<br>moving again<span>.</span></div>
-              <div class="phone-location"><span class="pin-icon">⌖</span><div><small>YOUR LOCATION</small><strong>Set your pickup spot</strong></div><span>›</span></div>
-              <div class="phone-caption">WHAT DO YOU NEED?</div>
-              <div class="phone-services"><div><span>↗</span> Towing</div><div><span>↯</span> Jump start</div><div><span>◉</span> Flat tire</div><div><span>⌁</span> Lockout</div></div>
-              <div class="phone-bottom"><span>⌂<small>Home</small></span><span>▤<small>Activity</small></span><span>○<small>Account</small></span></div>
-            </div>
-          </div>
-          <div class="floating-card floating-top"><span class="floating-icon">⌖</span><div><small>YOUR REQUEST</small><strong>Help, on your terms.</strong></div></div>
-          <div class="floating-card floating-bottom"><span class="floating-check">✓</span><div><small>ONE CLEAR EXPERIENCE</small><strong>From request to roadside.</strong></div></div>
+        <div class="hero-art" aria-label="Actual AID app preview">
+          <svg class="hero-route" viewBox="0 0 540 550" fill="none" aria-hidden="true"><path class="route-base" d="M55 440 C210 470 120 200 285 225 S380 75 500 105"/><path class="route-draw" d="M55 440 C210 470 120 200 285 225 S380 75 500 105"/><circle cx="55" cy="440" r="8"/><circle cx="500" cy="105" r="8"/></svg>
+          <div class="real-phone hero-phone"><img src="assets/screens/home.jpg" width="780" height="1696" alt="Real AID app home screen showing roadside service choices and a saved test vehicle" fetchpriority="high"></div>
+          <div class="floating-card floating-top"><span class="floating-icon">⌖</span><div><small>IN THE APP</small><strong>Choose the help you need.</strong></div></div>
+          <div class="hero-capture-tag">ACTUAL APP CAPTURE <span>·</span> TEST DATA</div>
         </div>
       </div>
       <div class="hero-foot container"><span>01 — ROADSIDE, REIMAGINED</span><span class="scroll-mark">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
@@ -66,7 +57,27 @@
       <div class="service-panel" id="service-panel" role="tabpanel" aria-labelledby="tab-towing" tabindex="0"><div class="service-visual"><div class="visual-road"></div><span class="visual-signal signal-one"></span><span class="visual-signal signal-two"></span><span class="visual-center" aria-hidden="true">↗</span><span class="visual-label">AID / 01</span></div><div class="service-content"><p class="eyebrow" id="service-kicker">WHEN THE CAR CAN'T GO</p><h3 id="service-name">Towing</h3><p id="service-description">Need a lift for your vehicle? Set your pickup and destination, then review the quote before you request help.</p><span class="service-meta" id="service-meta">PICKUP → DESTINATION</span></div></div></div>
       <p class="service-footnote">Also planned in the app: EV charging and oil changes. Detailing and tint are marked coming soon.</p></div>
     </section>
-    <section class="section steps-section" id="how-it-works" aria-labelledby="steps-title"><div class="container"><div class="section-head"><div><p class="eyebrow">03 / NO GUESSWORK</p><h2 id="steps-title">A better breakdown<br><em>of the whole process.</em></h2></div><p>Built to make a stressful moment feel a little more manageable. Simple steps, clear updates, and the details where you need them.</p></div>
+    <section class="section app-preview-section" id="app-preview" aria-labelledby="preview-title">
+      <div class="container">
+        <div class="section-head preview-head"><div><p class="eyebrow">03 / SEE THE REAL APP</p><h2 id="preview-title">Not a concept.<br><em>The actual experience.</em></h2></div><p>These are real captures from the AID app in development, using test accounts and test locations. Explore the flow below—no made-up booking demo.</p></div>
+        <div class="experience" aria-label="Explore three screens from the AID app">
+          <div class="experience-nav" role="tablist" aria-label="AID app screens">
+            <button class="experience-tab is-current" type="button" role="tab" id="experience-tab-0" aria-selected="true" aria-controls="experience-panel" data-screen="0"><span class="experience-index">01</span><span class="experience-tab-content"><strong>Choose your help</strong><small>Start with what your car needs.</small></span><span aria-hidden="true">↗</span></button>
+            <button class="experience-tab" type="button" role="tab" id="experience-tab-1" aria-selected="false" aria-controls="experience-panel" data-screen="1" tabindex="-1"><span class="experience-index">02</span><span class="experience-tab-content"><strong>Review before requesting</strong><small>Your location, vehicle and quote together.</small></span><span aria-hidden="true">↗</span></button>
+            <button class="experience-tab" type="button" role="tab" id="experience-tab-2" aria-selected="false" aria-controls="experience-panel" data-screen="2" tabindex="-1"><span class="experience-index">03</span><span class="experience-tab-content"><strong>Follow the job</strong><small>Status, driver details and an approximate ETA.</small></span><span aria-hidden="true">↗</span></button>
+            <div class="experience-progress" aria-hidden="true"><span></span></div>
+            <p class="experience-honesty">Captured in development. Names, vehicle, address, price and ETA shown are test data, not a live customer or service commitment.</p>
+          </div>
+          <div class="experience-stage" id="experience-panel" role="tabpanel" aria-labelledby="experience-tab-0" tabindex="0">
+            <div class="experience-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+            <figure class="experience-device"><img id="experience-image" src="assets/screens/home.jpg" width="780" height="1696" alt="Actual AID app home screen showing six roadside choices and a test garage vehicle" loading="lazy"><figcaption id="experience-caption">01 / CHOOSE YOUR HELP</figcaption></figure>
+            <span class="experience-stamp">REAL APP CAPTURE <span aria-hidden="true">↗</span></span>
+          </div>
+        </div>
+        <div class="experience-controls"><button id="experience-prev" type="button" aria-label="Previous app screen">←</button><span id="experience-count" aria-live="polite">01 / 03</span><button id="experience-next" type="button" aria-label="Next app screen">→</button></div>
+      </div>
+    </section>
+    <section class="section steps-section" id="how-it-works" aria-labelledby="steps-title"><div class="container"><div class="section-head"><div><p class="eyebrow">04 / NO GUESSWORK</p><h2 id="steps-title">A better breakdown<br><em>of the whole process.</em></h2></div><p>Built to make a stressful moment feel a little more manageable. Simple steps, clear updates, and the details where you need them.</p></div>
       <div class="steps-grid"><article class="step"><div class="step-top"><span>01</span><span class="step-icon">⌖</span></div><div class="step-illustration location-lines"><span class="loc-dot"></span><span class="loc-line"></span><span class="loc-label">YOUR PICKUP SPOT</span></div><h3>Tell us where</h3><p>Set your location and choose what your car needs. Add the vehicle details so the right help can find you.</p></article><article class="step"><div class="step-top"><span>02</span><span class="step-icon">≋</span></div><div class="step-illustration price-card"><small>YOUR QUOTE</small><span>Know before you go <b>↗</b></span><i></i><i></i></div><h3>See the price</h3><p>Review the quote before requesting. Your card is held for the quoted amount and charged when the job is completed.</p></article><article class="step"><div class="step-top"><span>03</span><span class="step-icon">↗</span></div><div class="step-illustration route-card"><span class="route-point"></span><span class="route-path"></span><span class="route-point end"></span><span class="route-caption">FOLLOW THE JOB</span></div><h3>Follow along</h3><p>See the job's progress, message your driver, and know what's happening from pickup to finish.</p></article></div>
       </div></section>
     <section class="statement" aria-labelledby="statement-title"><div class="container statement-inner"><p class="eyebrow">BUILT FOR THE MOMENT IT MATTERS</p><h2 id="statement-title">HELP SHOULD FEEL<br><span>LIKE HELP.</span></h2><p>No endless phone tree. No wondering what comes next. Just a clearer path back to your day.</p><a class="button button-outline" href="#launch">Meet the new roadside <span aria-hidden="true">↗</span></a></div></section>

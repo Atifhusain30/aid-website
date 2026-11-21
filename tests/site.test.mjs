@@ -23,10 +23,21 @@ test('prelaunch site has no fake conversion or availability promises', () => {
   assert.match(html, /is AID an emergency service[\s\S]*?<p>No\./i);
 });
 test('service selector has a panel and keyboard operation', () => {
-  assert.equal((html.match(/role="tab"/g) || []).length, 5);
+  assert.equal((html.match(/class="service-tab(?: active)?"/g) || []).length, 5);
   assert.match(html, /role="tabpanel"/);
   assert.match(js, /ArrowRight/);
   assert.match(js, /aria-selected/);
+});
+test('the app preview uses genuine captured assets and labels test data', () => {
+  assert.match(html, /assets\/screens\/home\.jpg/);
+  assert.match(html, /TEST DATA/);
+  assert.match(html, /test data, not a live customer or service commitment/i);
+  assert.equal((html.match(/id="experience-tab-[0-2]"/g) || []).length, 3);
+  assert.match(js, /ArrowRight/);
+  assert.match(js, /prefers-reduced-motion: reduce/);
+  for (const file of ['home', 'request', 'tracking']) {
+    assert.ok(existsSync(new URL(`../assets/screens/${file}.jpg`, import.meta.url)));
+  }
 });
 test('mobile and reduced-motion styles are present', () => {
   assert.match(css, /max-width:760px/);
