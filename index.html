@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08080b">
+  <meta name="description" content="AID is a new way to get roadside help. Request a tow, jump start, tire change, lockout help and more—all from one app. Coming soon.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AID — Roadside help, without the runaround">
+  <meta property="og:description" content="One place for roadside help. Know the price, follow the job, and get moving again. Coming soon.">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <link rel="icon" href="assets/aid-icon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/night-drive.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>AID — Roadside help, without the runaround</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="AID home"><img src="assets/aid-icon.svg" width="39" height="39" alt=""><span>AID<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a><a href="#how-it-works">How it works</a><a href="#drivers">For drivers</a><a href="#questions">FAQ</a>
+        <a class="nav-cta" href="#launch">Explore AID <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A BETTER WAY BACK ON THE ROAD <span class="eyebrow-index">/ 01</span></p>
+          <h1 id="hero-title">THE ROAD<br>DOESN'T <em>WAIT.</em><br>NEITHER DO WE.</h1>
+          <p class="hero-lede">A flat tire. A dead battery. A car that won't move. AID brings the help you need into one clear, simple experience.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#services">Explore roadside help <span aria-hidden="true">↗</span></a><a class="text-link" href="#how-it-works">See how AID works <span aria-hidden="true">↓</span></a></div>
+          <p class="launch-note"><span class="pulse-dot" aria-hidden="true"></span> The AID app is preparing to launch. Service is not available yet.</p>
+        </div>
+        <div class="hero-art" aria-label="Preview of the AID roadside help app">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="phone" role="img" aria-label="Illustrative preview: AID app showing roadside service choices. Not a live booking screen.">
+            <div class="phone-notch"></div>
+            <div class="phone-inner">
+              <div class="phone-top"><div class="phone-logo"><img src="assets/aid-icon.svg" alt="" width="24" height="24"> AID</div><span class="phone-menu">◦◦◦</span></div>
+              <div class="phone-greeting">GOOD EVENING</div>
+              <div class="phone-heading">Let's get you<br>moving again<span>.</span></div>
+              <div class="phone-location"><span class="pin-icon">⌖</span><div><small>YOUR LOCATION</small><strong>Set your pickup spot</strong></div><span>›</span></div>
+              <div class="phone-caption">WHAT DO YOU NEED?</div>
+              <div class="phone-services"><div><span>↗</span> Towing</div><div><span>↯</span> Jump start</div><div><span>◉</span> Flat tire</div><div><span>⌁</span> Lockout</div></div>
+              <div class="phone-bottom"><span>⌂<small>Home</small></span><span>▤<small>Activity</small></span><span>○<small>Account</small></span></div>
+            </div>
+          </div>
+          <div class="floating-card floating-top"><span class="floating-icon">⌖</span><div><small>YOUR REQUEST</small><strong>Help, on your terms.</strong></div></div>
+          <div class="floating-card floating-bottom"><span class="floating-check">✓</span><div><small>ONE CLEAR EXPERIENCE</small><strong>From request to roadside.</strong></div></div>
+        </div>
+      </div>
+      <div class="hero-foot container"><span>01 — ROADSIDE, REIMAGINED</span><span class="scroll-mark">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track">ON THE ROAD AGAIN <span>✳</span> TOWING <span>✳</span> JUMP STARTS <span>✳</span> FLAT TIRES <span>✳</span> LOCKOUTS <span>✳</span> ON THE ROAD AGAIN <span>✳</span> TOWING <span>✳</span> JUMP STARTS <span>✳</span> FLAT TIRES <span>✳</span> LOCKOUTS <span>✳</span></div></div>
+    <section class="section services-section" id="services" aria-labelledby="services-title">
+      <div class="container"><div class="section-head"><div><p class="eyebrow">02 / THE HELP YOU NEED</p><h2 id="services-title">Whatever stops you.<br><em>We'll get you moving.</em></h2></div><p>One app for the roadside moments you didn't plan for. See your options and a quote before making a request.</p></div>
+      <div class="service-layout"><div class="service-list" role="tablist" aria-label="Explore services"><button class="service-tab active" type="button" role="tab" id="tab-towing" aria-selected="true" aria-controls="service-panel" data-service="towing"><span class="service-number">01</span><span>Towing</span><span class="tab-arrow">↗</span></button><button class="service-tab" type="button" role="tab" id="tab-battery" aria-selected="false" aria-controls="service-panel" data-service="battery"><span class="service-number">02</span><span>Jump start</span><span class="tab-arrow">↗</span></button><button class="service-tab" type="button" role="tab" id="tab-tire" aria-selected="false" aria-controls="service-panel" data-service="tire"><span class="service-number">03</span><span>Flat tire</span><span class="tab-arrow">↗</span></button><button class="service-tab" type="button" role="tab" id="tab-lockout" aria-selected="false" aria-controls="service-panel" data-service="lockout"><span class="service-number">04</span><span>Lockout</span><span class="tab-arrow">↗</span></button><button class="service-tab" type="button" role="tab" id="tab-fuel" aria-selected="false" aria-controls="service-panel" data-service="fuel"><span class="service-number">05</span><span>Fuel delivery</span><span class="tab-arrow">↗</span></button></div>
+      <div class="service-panel" id="service-panel" role="tabpanel" aria-labelledby="tab-towing" tabindex="0"><div class="service-visual"><div class="visual-road"></div><span class="visual-signal signal-one"></span><span class="visual-signal signal-two"></span><span class="visual-center" aria-hidden="true">↗</span><span class="visual-label">AID / 01</span></div><div class="service-content"><p class="eyebrow" id="service-kicker">WHEN THE CAR CAN'T GO</p><h3 id="service-name">Towing</h3><p id="service-description">Need a lift for your vehicle? Set your pickup and destination, then review the quote before you request help.</p><span class="service-meta" id="service-meta">PICKUP → DESTINATION</span></div></div></div>
+      <p class="service-footnote">Also planned in the app: EV charging and oil changes. Detailing and tint are marked coming soon.</p></div>
+    </section>
+    <section class="section steps-section" id="how-it-works" aria-labelledby="steps-title"><div class="container"><div class="section-head"><div><p class="eyebrow">03 / NO GUESSWORK</p><h2 id="steps-title">A better breakdown<br><em>of the whole process.</em></h2></div><p>Built to make a stressful moment feel a little more manageable. Simple steps, clear updates, and the details where you need them.</p></div>
+      <div class="steps-grid"><article class="step"><div class="step-top"><span>01</span><span class="step-icon">⌖</span></div><div class="step-illustration location-lines"><span class="loc-dot"></span><span class="loc-line"></span><span class="loc-label">YOUR PICKUP SPOT</span></div><h3>Tell us where</h3><p>Set your location and choose what your car needs. Add the vehicle details so the right help can find you.</p></article><article class="step"><div class="step-top"><span>02</span><span class="step-icon">≋</span></div><div class="step-illustration price-card"><small>YOUR QUOTE</small><span>Know before you go <b>↗</b></span><i></i><i></i></div><h3>See the price</h3><p>Review the quote before requesting. Your card is held for the quoted amount and charged when the job is completed.</p></article><article class="step"><div class="step-top"><span>03</span><span class="step-icon">↗</span></div><div class="step-illustration route-card"><span class="route-point"></span><span class="route-path"></span><span class="route-point end"></span><span class="route-caption">FOLLOW THE JOB</span></div><h3>Follow along</h3><p>See the job's progress, message your driver, and know what's happening from pickup to finish.</p></article></div>
+      </div></section>
+    <section class="statement" aria-labelledby="statement-title"><div class="container statement-inner"><p class="eyebrow">BUILT FOR THE MOMENT IT MATTERS</p><h2 id="statement-title">HELP SHOULD FEEL<br><span>LIKE HELP.</span></h2><p>No endless phone tree. No wondering what comes next. Just a clearer path back to your day.</p><a class="button button-outline" href="#launch">Meet the new roadside <span aria-hidden="true">↗</span></a></div></section>
+    <section class="section driver-section" id="drivers" aria-labelledby="driver-title"><div class="container driver-grid"><div class="driver-graphic" aria-hidden="true"><div class="graphic-number">80<span>%</span></div><div class="graphic-rule"></div><p>YOUR SHARE<br>OF EACH JOB*</p><span class="driver-asterisk">*Proposed launch split; subject to final policy.</span></div><div class="driver-copy"><p class="eyebrow">04 / FOR THE PEOPLE WHO SHOW UP</p><h2 id="driver-title">Your skills.<br><em>Your next move.</em></h2><p>AID is being built for independent roadside drivers too. See nearby requests your equipment can handle, manage the job in one place, and track your earnings.</p><ul><li><span>↗</span> Requests matched to your equipment</li><li><span>↗</span> Clear job details and status updates</li><li><span>↗</span> Payout setup through Stripe</li></ul><a class="text-link" href="#driver-faq">How driver approval works <span aria-hidden="true">↗</span></a><p class="driver-note">Driver onboarding and availability are not open to the public yet.</p></div></div></section>
+    <section class="section faq-section" id="questions" aria-labelledby="faq-title"><div class="container faq-grid"><div><p class="eyebrow">05 / GOOD TO KNOW</p><h2 id="faq-title">A few things<br><em>worth knowing.</em></h2><p class="faq-intro">Real answers. No fine-print surprises.</p></div><div class="faq-list"><details><summary>Is AID available right now?<span aria-hidden="true">+</span></summary><p>Not yet. The app is preparing to launch. This website is a preview of what's being built, not a way to book service today.</p></details><details><summary>How does payment work?<span aria-hidden="true">+</span></summary><p>In the app, you see a quote before requesting. A card hold is placed when you request help. The final charge is made on completion; if no driver accepts and the request expires, the hold is released.</p></details><details><summary>What if I need to cancel?<span aria-hidden="true">+</span></summary><p>Cancellation is free before a driver accepts and during the first five minutes after acceptance. After that, a proposed $10 fee may apply while your driver is on the way, capped at the job price. The app shows the fee before you confirm. This policy is subject to final approval before launch.</p></details><details id="driver-faq"><summary>How do drivers join?<span aria-hidden="true">+</span></summary><p>Drivers submit their documents and vehicle information for AID review before going online. Identity and background-check requirements are being finalized for launch. Driver registration is not open to the public yet.</p></details><details><summary>Is AID an emergency service?<span aria-hidden="true">+</span></summary><p>No. If anyone is in danger or needs police, fire, or medical help, call 911. AID does not contact emergency services for you.</p></details></div></div></section>
+    <section class="launch-section" id="launch" aria-labelledby="launch-title"><div class="container launch-inner"><img src="assets/aid-icon.svg" alt="" width="48" height="48"><p class="eyebrow">THE NEXT CHAPTER OF ROADSIDE</p><h2 id="launch-title">AID IS <em>ON ITS WAY.</em></h2><p>The app isn't taking requests yet. When launch details and app store links are ready, we'll put them here. Until then, explore what we're building.</p><div class="launch-actions"><a class="button button-primary" href="#services">Explore services <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#drivers">For drivers <span aria-hidden="true">↗</span></a></div><small>No download link or sign-up is available before launch.</small></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-top"><a class="brand" href="#top" aria-label="AID home"><img src="assets/aid-icon.svg" width="36" height="36" alt=""><span>AID<span class="brand-dot">.</span></span></a><p>Roadside help, without the runaround.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>© <span id="year"></span> AID Roadside. Built for the road ahead.</span><span>Privacy policy and terms will be published before launch. <a href="https://unsplash.com/photos/a-car-driving-down-a-street-at-night-pt7kCR5A_Y4" target="_blank" rel="noopener noreferrer">Photo: Jeffrey Keenan / Unsplash</a></span></div></div></footer>
+</body>
+</html>
